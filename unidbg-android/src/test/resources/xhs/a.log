@@ -1,0 +1,74 @@
+
+[12:01:48 215][libshield.so 0x053168] [001c226e] 0x40053168: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 221][libshield.so 0x05316c] [211c226e] 0x4005316c: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 223][libshield.so 0x053170] [e00700ad] 0x40053170: "stp q0, q1, [sp]" sp=0xbffff3a0
+[12:01:48 225][libshield.so 0x053174] [6042c43c] 0x40053174: "ldur q0, [x19, #0x44]" x19=0x40466000
+[12:01:48 227][libshield.so 0x053178] [6142c53c] 0x40053178: "ldur q1, [x19, #0x54]" x19=0x40466000
+[12:01:48 229][libshield.so 0x05317c] [001c226e] 0x4005317c: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 233][libshield.so 0x053180] [211c226e] 0x40053180: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 235][libshield.so 0x053184] [e00701ad] 0x40053184: "stp q0, q1, [sp, #0x20]" sp=0xbffff3a0
+[12:01:48 237][libshield.so 0x053188] [6042c63c] 0x40053188: "ldur q0, [x19, #0x64]" x19=0x40466000
+[12:01:48 239][libshield.so 0x05318c] [6142c73c] 0x4005318c: "ldur q1, [x19, #0x74]" x19=0x40466000
+[12:01:48 241][libshield.so 0x053190] [001c226e] 0x40053190: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 243][libshield.so 0x053194] [211c226e] 0x40053194: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 245][libshield.so 0x053198] [e00702ad] 0x40053198: "stp q0, q1, [sp, #0x40]" sp=0xbffff3a0
+[12:01:48 246][libshield.so 0x05319c] [6042c83c] 0x4005319c: "ldur q0, [x19, #0x84]" x19=0x40466000
+[12:01:48 247][libshield.so 0x0531a0] [6142c93c] 0x400531a0: "ldur q1, [x19, #0x94]" x19=0x40466000
+[12:01:48 247][libshield.so 0x0531a4] [001c226e] 0x400531a4: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 249][libshield.so 0x0531a8] [211c226e] 0x400531a8: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 251][libshield.so 0x0531ac] [e00703ad] 0x400531ac: "stp q0, q1, [sp, #0x60]" sp=0xbffff3a0
+[12:01:48 252][libshield.so 0x0531b0] [600a40f9] 0x400531b0: "ldr x0, [x19, #0x10]" x19=0x40466000 => x0=0x40459040
+[12:01:48 253][libshield.so 0x0531b4] [04ffff97] 0x400531b4: "bl #0x40052dc4" => x30=0x400531b8
+[12:01:48 255][libshield.so 0x0531b8] [60050034] 0x400531b8: "cbz w0, #0x40053264" w0=0x1
+[12:01:48 256][libshield.so 0x0531bc] [600a40f9] 0x400531bc: "ldr x0, [x19, #0x10]" x19=0x40466000 => x0=0x40459040
+[12:01:48 257][libshield.so 0x0531c0] [823280b9] 0x400531c0: "ldrsw x2, [x20, #0x30]" x2=0x4 x20=0x40105998 => x2=0x40
+[12:01:48 258][libshield.so 0x0531c4] [e1030091] 0x400531c4: "mov x1, sp" sp=0xbffff3a0 => x1=0xbffff3a0
+[12:01:48 266][libshield.so 0x0531c8] [080c40f9] 0x400531c8: "ldr x8, [x0, #0x18]" x0=0x40459040 => x8=0x40052bf0
+[12:01:48 267][libshield.so 0x0531cc] [00013fd6] 0x400531cc: "blr x8" x8=0x40052bf0 => x30=0x400531d0
+[12:01:48 269][libshield.so 0x0531d0] [a0040034] 0x400531d0: "cbz w0, #0x40053264" w0=0x1
+[12:01:48 270][libshield.so 0x0531d4] [6042c23c] 0x400531d4: "ldur q0, [x19, #0x24]" x19=0x40466000
+[12:01:48 274][libshield.so 0x0531d8] [6142c33c] 0x400531d8: "ldur q1, [x19, #0x34]" x19=0x40466000
+[12:01:48 275][libshield.so 0x0531dc] [82e7024f] 0x400531dc: "movi v2.16b, #0x5c"
+[12:01:48 276][libshield.so 0x0531e0] [e10314aa] 0x400531e0: "mov x1, x20" x20=0x40105998 => x1=0x40105998
+[12:01:48 277][libshield.so 0x0531e4] [001c226e] 0x400531e4: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 278][libshield.so 0x0531e8] [211c226e] 0x400531e8: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 279][libshield.so 0x0531ec] [e00700ad] 0x400531ec: "stp q0, q1, [sp]" sp=0xbffff3a0
+[12:01:48 280][libshield.so 0x0531f0] [6042c43c] 0x400531f0: "ldur q0, [x19, #0x44]" x19=0x40466000
+[12:01:48 281][libshield.so 0x0531f4] [6142c53c] 0x400531f4: "ldur q1, [x19, #0x54]" x19=0x40466000
+[12:01:48 282][libshield.so 0x0531f8] [001c226e] 0x400531f8: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 283][libshield.so 0x0531fc] [211c226e] 0x400531fc: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 284][libshield.so 0x053200] [e00701ad] 0x40053200: "stp q0, q1, [sp, #0x20]" sp=0xbffff3a0
+[12:01:48 285][libshield.so 0x053204] [6042c63c] 0x40053204: "ldur q0, [x19, #0x64]" x19=0x40466000
+[12:01:48 286][libshield.so 0x053208] [6142c73c] 0x40053208: "ldur q1, [x19, #0x74]" x19=0x40466000
+[12:01:48 290][libshield.so 0x05320c] [001c226e] 0x4005320c: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 293][libshield.so 0x053210] [211c226e] 0x40053210: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 294][libshield.so 0x053214] [e00702ad] 0x40053214: "stp q0, q1, [sp, #0x40]" sp=0xbffff3a0
+[12:01:48 294][libshield.so 0x053218] [6042c83c] 0x40053218: "ldur q0, [x19, #0x84]" x19=0x40466000
+[12:01:48 295][libshield.so 0x05321c] [6142c93c] 0x4005321c: "ldur q1, [x19, #0x94]" x19=0x40466000
+[12:01:48 296][libshield.so 0x053220] [001c226e] 0x40053220: "eor v0.16b, v0.16b, v2.16b"
+[12:01:48 296][libshield.so 0x053224] [211c226e] 0x40053224: "eor v1.16b, v1.16b, v2.16b"
+[12:01:48 297][libshield.so 0x053228] [e00703ad] 0x40053228: "stp q0, q1, [sp, #0x60]" sp=0xbffff3a0
+[12:01:48 297][libshield.so 0x05322c] [600e40f9] 0x4005322c: "ldr x0, [x19, #0x18]" x19=0x40466000 => x0=0x40459060
+[12:01:48 298][libshield.so 0x053230] [e5feff97] 0x40053230: "bl #0x40052dc4" => x30=0x40053234
+[12:01:48 298][libshield.so 0x053234] [80010034] 0x40053234: "cbz w0, #0x40053264" w0=0x1
+[12:01:48 299][libshield.so 0x053238] [600e40f9] 0x40053238: "ldr x0, [x19, #0x18]" x19=0x40466000 => x0=0x40459060
+[12:01:48 303][libshield.so 0x05323c] [823280b9] 0x4005323c: "ldrsw x2, [x20, #0x30]" x2=0x4 x20=0x40105998 => x2=0x40
+[12:01:48 303][libshield.so 0x053240] [e1030091] 0x40053240: "mov x1, sp" sp=0xbffff3a0 => x1=0xbffff3a0
+[12:01:48 304][libshield.so 0x053244] [080c40f9] 0x40053244: "ldr x8, [x0, #0x18]" x0=0x40459060 => x8=0x40052bf0
+[12:01:48 305][libshield.so 0x053248] [00013fd6] 0x40053248: "blr x8" x8=0x40052bf0 => x30=0x4005324c
+[12:01:48 306][libshield.so 0x05324c] [c0000034] 0x4005324c: "cbz w0, #0x40053264" w0=0x1
+[12:01:48 307][libshield.so 0x053250] [608640a9] 0x40053250: "ldp x0, x1, [x19, #8]" x0=0x1 x1=0xbffff3e0 x19=0x40466000 => x0=0x40459080 x1=0x40459040
+[12:01:48 307][libshield.so 0x053254] [30ffff97] 0x40053254: "bl #0x40052f14" => x30=0x40053258
+[12:01:48 308][libshield.so 0x053258] [60000034] 0x40053258: "cbz w0, #0x40053264" w0=0x1
+[12:01:48 310][libshield.so 0x05325c] [e0030032] 0x4005325c: "orr w0, wzr, #1" w0=0x1 => w0=0x1
+[12:01:48 313][libshield.so 0x053260] [02000014] 0x40053260: "b #0x40053268"
+[12:01:48 315][libshield.so 0x053268] [48d03bd5] 0x40053268: "mrs x8, tpidr_el0" x8=0x40052bf0 => x8=0xbffff718
+[12:01:48 316][libshield.so 0x05326c] [081540f9] 0x4005326c: "ldr x8, [x8, #0x28]" x8=0xbffff718 => x8=0x0
+[12:01:48 317][libshield.so 0x053270] [a9835df8] 0x40053270: "ldur x9, [x29, #-0x28]" x9=0x40105998 x29=0xbffff450 => x9=0x0
+[12:01:48 318][libshield.so 0x053274] [1f0109eb] 0x40053274: "cmp x8, x9" x9=0x0 => nzcv: N=0, Z=1, C=1, V=0 x8=0x0
+[12:01:48 320][libshield.so 0x053278] [c1000054] 0x40053278: "b.ne #0x40053290" nzcv: N=0, Z=1, C=1, V=0
+[12:01:48 321][libshield.so 0x05327c] [fd7b4ba9] 0x4005327c: "ldp x29, x30, [sp, #0xb0]" x29=0xbffff450 x30=0x40053258 sp=0xbffff3a0 => x29=0xbffff4e0 x30=0x40015f68
+[12:01:48 322][libshield.so 0x053280] [f44f4aa9] 0x40053280: "ldp x20, x19, [sp, #0xa0]" x20=0x40105998 x19=0x40466000 sp=0xbffff3a0 => x20=0xfffe1640 x19=0xbffff580
+[12:01:48 323][libshield.so 0x053284] [f65749a9] 0x40053284: "ldp x22, x21, [sp, #0x90]" x22=0x40461000 x21=0x40 sp=0xbffff3a0 => x22=0x4c309d4d x21=0x40461000
+[12:01:48 324][libshield.so 0x053288] [ff030391] 0x40053288: "add sp, sp, #0xc0" sp=0xbffff3a0 => sp=0xbffff460
+[12:01:48 324][libshield.so 0x05328c] [c0035fd6] 0x4005328c: "ret"
